@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         myRigidbody.velocity = new Vector2(-asteroidSpeed,0f);
+        // Atempt at Rotation myRigidbody.rotation = new Vector3(0f, 0f, 10f);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

@@ -20,7 +20,7 @@ public class Scorer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = scoreAmount + " Score";
+        scoreText.text = (int)scoreAmount + " Score";
         scoreAmount += pointIncreasedPerSecond * Time.deltaTime; 
     }
 }
