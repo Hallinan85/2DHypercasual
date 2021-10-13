@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    public float timer = 0f;
+    
     [SerializeField] GameObject rocket;
-    bool runTimer; 
+    bool runTimer;
+    float timer;
 
     void Start()
     {

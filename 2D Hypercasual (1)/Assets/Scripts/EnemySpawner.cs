@@ -10,6 +10,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float minSpawnDistance;
     [SerializeField] float maxSpawnDistance;
 
+    
+
     private void Start()
     {
         StartCoroutine(SpawnEnemy());
